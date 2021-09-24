@@ -1,0 +1,249 @@
+.header{
+    border-bottom: 1px solid rgb(211, 207, 207);
+    box-shadow: 5px 7px 15px #888888;
+}
+.nav_bar{
+    height: 100px;
+    width: 100%;
+}
+.nav_bar_up{
+    color: var(--white-color);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(211, 207, 207);
+}
+.nav_bar_up_info{
+    display: flex;
+    font-size: 12px;
+}
+.nav_bar_up_info>div{
+    display: flex;
+    align-items: center;
+}
+.nav_bar_up_info_email{
+    margin-left: 20px;
+}
+.nav_bar_up_info_location{
+    margin-left: 20px;
+}
+.nav_bar_up_info>div>div{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.nav_bar_up_login{
+    display: flex;
+    align-items: center;
+    
+}
+.nav_bar_up_login a{
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--white-color);
+}
+.nav_bar_up_login a:first-child::after{
+    content: '';
+    width: 1px;
+    height: 25px;
+    border-right: 1px solid var(--white-color);
+    margin-left: 10px;
+}
+.nav_bar_down{
+    display: flex;
+    height: 70px;
+}
+.nav_bar_up_logo{
+    align-items: center;
+    display: flex;
+}
+.nav_bar_up_logo img{
+    height: 60px;
+}
+.slogan{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.nav_bar_up_menu{
+    margin-left: 15%;
+}
+.list_menu{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.list_menu li{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+}
+.list_menu li a{
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 13px;
+    color: rgb(236, 101, 128);
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+}
+.list_menu li i{
+    font-size: 32px;
+}
+.nav_bar_up_cart{
+    font-size: 30px;
+    margin-left: auto;
+}
+.container_app{
+    margin-top: 10px;
+    background-color: #f5f5f5;
+}
+.item_list_detail{
+    width: 100%;
+    height: 212px;
+    margin-top: 12px;
+    background-color: white;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.item_sale{
+    display: flex;
+    margin-top: 6px;
+    justify-content: space-between;
+}
+.item_list_content{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.item_sale i{
+    font-size: 20px;
+}
+.item_sale i:hover{
+    color: rgb(235, 100, 21);
+}
+.item_list_detail img{
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.item_name{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 6px;
+}
+.item_price{
+    font-size: 15px;
+    margin-top: 6px;
+    color: rgb(235, 100, 21);
+    font-weight: 550;
+}
+.item_quantity{
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--white-color);
+    
+}
+.item_cart{
+    background-color: white;
+    margin-top: 12px;
+    border-radius: 4px;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+.header_cart{
+    width: 100%;
+    height: 40px;
+    display: flex;
+
+    align-items: center;
+    
+}
+.header_cart i{
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: rgb(235, 100, 21);
+}
+.your_cart{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(235, 100, 21);
+    margin-left: 10px;
+}
+.container_cart{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    
+}
+.container_cart_item{
+    margin: auto;
+    height: 90%;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.container_cart_info{
+    width: 70%;
+    height: 80%;
+    margin-left: 7px;
+    justify-content: center;
+}
+.container_cart img{
+    height: 80%;
+    width: 22%;
+    justify-content: center;
+    margin-left: 7px;
+}
+.container_cart_info_sale{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.container_cart_info_quantity{
+    display: flex;
+}
+.cart_info_name{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+}
+.cart_info_quantity{
+    margin-left: 5px;
+    font-size: 15px;
+}
+.cart_info_button_plus{
+    margin-left: 5px;
+}
+.container_cart_info_price{
+    font-size: 15px;
+    color: rgb(235, 100, 21);
+    font-weight: 550;
+}
+.payment_cart{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+}
+.button_add_cart{
+    border: none;
+    background-color: white;
+}
+.item_cart_list{
+    height: calc(100% - 50px - 40px);
+    overflow: scroll;
+}

@@ -1,0 +1,43 @@
+:root{
+    --white-color: rgb(107, 106, 106);
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.col-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;
+}
+.col-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3333%;
+}
+.col-9{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 75%;
+}
+.col-3{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 25%;
+}
